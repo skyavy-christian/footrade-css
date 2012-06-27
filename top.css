@@ -1,0 +1,359 @@
+div.image_hovers {
+	width: 961px;
+	height: 360px;
+}
+div.current_image_hovered {
+	float: left;
+	width: 796px;
+	height: 360px;
+}
+.image_hover_hide_2 {
+	display: none;
+}
+.image_hover_hide_3 {
+	display: none;
+}
+.image_hover_selection_1, .image_hover_selection_2, .image_hover_selection_3 {
+	height: 120px;
+}
+div.image_hover_selection-1 {
+	float: right;
+	width: 165px;
+	height: 120px;
+}
+div.image_hover_selection-1:hover {
+	cursor: pointer;
+}
+div.image_hover_selection-2 {
+	float: right;
+	width: 165px;
+	height: 120px;
+}
+div.image_hover_selection-2:hover {
+	cursor: pointer;
+}
+div.image_hover_selection-3 {
+	float: right;
+	width: 165px;
+	height: 120px;
+}
+div.image_hover_selection-3:hover {
+	cursor: pointer;
+}
+/*-------------------------------------------------------------------*/
+div.main_content_wrapper {
+	width: 730px;
+	float: left;
+}
+/*-------------------------------------------------------------------*/
+div.new_players {
+	width: 730px;
+	
+	margin-top: 40px;
+}
+div.btn_view_all_players {
+	background-image: url("../images/buttons/btn_sprite.png");
+	background-position: 0px 0px;
+
+	/*position: relative;
+	left: 65px;*/
+	float: left;
+
+	height: 20px;
+	width: 145px;
+}
+div.btn_view_all_players:hover {
+	background-position: 0px -20px;
+	cursor: pointer;	
+}
+div.new_players_btns {
+	margin-top: 10px;
+	width: inherit;
+	height: 36px;
+}
+div.new_players_text { /*needs to be cleaned up soon */
+	float:left;
+	color: #FFFFFF;
+}
+.btn_all {
+	background-image: url("../images/buttons/btn_header.png");
+	background-position: 0px -88px;
+	float: left;
+	height: 36px;
+	width: 146px;
+}
+.btn_all:hover, .btn_all_toggled {
+	background-position: 0px -124px;
+	cursor: pointer;
+}
+.btn_fw {
+	background-image: url("../images/buttons/btn_header.png");
+	background-position: -146px -88px;
+	float: left;
+	height: 36px;
+	width: 145px;
+}
+.btn_fw:hover, .btn_fw_toggled {
+	background-position: -146px -124px;
+	cursor: pointer;
+}
+.btn_mf {
+	background-image: url("../images/buttons/btn_header.png");
+	background-position: -291px -88px;
+	float: left;
+	height: 36px;
+	width: 146px;
+}
+.btn_mf:hover, .btn_mf_toggled {
+	background-position: -291px -124px;
+	cursor: pointer;
+}
+.btn_df {
+	background-image: url("../images/buttons/btn_header.png");
+	background-position: -437px -88px;
+	float: left;
+	height: 36px;
+	width: 146px;
+}
+.btn_df:hover, .btn_df_toggled {
+	background-position: -437px -124px;
+	cursor: pointer;
+}
+.btn_gk {
+	background-image: url("../images/buttons/btn_header.png");
+	background-position: -583px -88px;
+	float: left;
+	height: 36px;
+	width: 147px;
+}
+.btn_gk:hover, .btn_gk_toggled {
+	background-position: -583px -124px;
+	cursor: pointer;
+}
+div.bottom_btn_bar {
+	width: 730px;
+	height: 3px;
+
+	background-image: url("../images/footrade_02-sliced_61.png");
+}
+div.players_photo_container {
+	width: 730px;
+	height: 448px;
+	margin-top: 18px;
+	margin-bottom: 40px;
+}
+.players_photo_row {
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+.players_photo_row li {
+	width: 150px;
+	height: 150px;
+	display:inline;
+	float:left;
+}
+.players_photo_row li:last-child {
+	width: 130px;
+}
+.players_photo_row li a img {
+	border: none;
+}
+.players_fw, .players_mf, .players_df, .players_gk {
+	display: none;
+}
+/*div.players_photo_row img:first-child {
+	margin-left: 0px;
+}
+div.players_photo_row img {
+	margin-bottom: 13px;
+	margin-left: 16px;
+	width: 130px;
+	height: 130px;
+
+}
+div.players_photo_row a {
+	margin-left: 16px;
+}
+div.players_photo_row a:first-child {
+	margin-left: 0px;
+}*/
+/*-------------------------------------------------------------------*/
+div.new_selections {
+	margin-top: 20px;
+	width: 730px;
+	
+}
+div.selections {
+	width: 350px;
+	height: 240px;
+	float: left;
+	position: absolute;
+}
+div.selections_header {
+	margin-top: 12px;
+	height: 40px;
+}
+div.recruiting {
+	width: 350px;
+	height: 240px;	/* maybe redundant */
+	float: right;
+}
+div.recruiting_header {
+	margin-top: 12px;
+	height: 40px;
+}
+.new_selections_recruiting {
+	list-style-position: inside;
+	list-style-type: none;
+	padding: 0px;
+	font-size: 12px;
+}
+.new_selections_recruiting li {
+	border-bottom: 1px dotted #333333;
+	padding-top: 11px;
+	padding-bottom: 13px;
+}
+.new_selections_text_2 {
+	position: relative;
+	left: 10px;
+	color: #FFFFFF;
+	display: inline;
+}
+.new_selections_text_3 {
+	position: relative;
+	left: 20px;
+	display: inline;
+}
+.new_selections_text_3 a {
+	color: #15918b;
+}
+.new_recruiting_text_2 {
+	position: relative;
+	left: 10px;
+	color: #FFFFFF;
+	display: inline;
+}
+.new_recruiting_text_3 {
+	position: relative;
+	left: 20px;
+	display: inline;
+}
+.new_recruiting_text_3 a {
+	color: #15918b;
+}
+/*-------------------------------------------------------------------*/
+div.new_teams {
+	width: 730px;
+	
+	margin-top: 48px;
+}
+div.new_teams_text { /*needs to be cleaned up soon */
+	float:left;
+	color: #FFFFFF;
+}
+div.btn_view_all_teams {
+	background-image: url("../images/buttons/btn_sprite.png");
+	background-position: -145px -0px;
+	height: 20px;
+	width: 135px;
+		
+	/*position: relative;
+	left: 100px;*/
+	float: left;
+}
+div.btn_view_all_teams:hover {
+	background-position: -145px -20px;
+	cursor: pointer;
+}
+div.teams_photo_container {
+	float: left;
+	width: 730px;
+	margin-top: 10px;
+}
+div.teams_photo_row div:first-child {
+	float: left;
+	margin-left: 0px;
+}
+div.teams_photo_row div {
+	float: left;
+	margin-left: 20px;
+	color: #FFFFFF;	/*clean this up*/
+	text-align: center;
+	width: 130px;
+}
+div.teams_photo_row p {
+	margin-top: 9px;
+	font-size: 11px;
+}
+/*-------------------------------------------------------------------*/
+div.map_and_search_wrapper {
+	margin-top: 49px;
+	margin-bottom: 21px;
+	width: 730px;
+	color: #FFFFFF;	/* clean up soon*/
+}
+div.search_players {
+	width: 190px;
+	height: 260px;
+	background-image: url("../images/search_player_background.png");
+	float: left;
+}
+div.search_player_text {
+	margin-top: 17px;
+	margin-left: 14px;
+	height: 14px;
+}
+div.search_form {
+	margin-left: 14px;
+}
+div.search_form div {
+	height: 15px;
+	margin-top: 15px;
+	width: 148px;
+	color: #ABCE43;
+}
+div.search_form div:first-child {
+	margin-top: 18px;
+}
+div.search_form div:last-child {
+	margin-bottom: 18px;
+}
+.search_form  span:first-child{
+	color: #FFFFFF;
+}
+.search_form span {
+	float: right;
+}
+
+.search_players input[type=submit] {
+	margin-left: auto;
+	margin-right: auto;
+	
+	border: 0;
+
+	display: block;
+	
+	background-image: url("../images/buttons/btn_sprite.png");
+	background-position: -212px -40px;
+	background-color:transparent;
+	height: 27px;
+	width: 114px;
+}
+.search_players input[type=submit]:hover {
+	background-position: -212px -69px;
+	cursor: pointer;
+}
+div.footrade_map {
+	margin-left: 20px;
+	width: 520px;
+	height: 263px;
+	background-image: url("../images/top/bg_footrade_map.png");
+	float: left;
+}
+.fixed_130_sides {
+	width: 130px;
+	height: 130px;
+	
+	background-color: #FFFFFF;
+}

@@ -1,0 +1,209 @@
+.right_bar { /*from player page*/
+	width: 200px;
+	float: right;
+	
+	margin-bottom: 10px;
+}
+div.right { /*from top page*/
+	width: 200px;
+	
+	margin-top: 40px;
+	
+	float: right;
+}
+div.login {
+	width: 200px;
+	height: 186px;
+	
+	background-image: url("../images/bg_small_login.png");
+}
+div.login_text {
+	padding-top: 13px;
+	
+	color: #FFFFFF; /*clean up*/
+	
+	height: 15px;
+	width: 128px;
+}
+div.login_form input {
+	margin-top: 17px;
+	margin-bottom: 12px;
+}
+div.login_form input:last-child {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div.login_form input[type=text], div.login_form input[type=password] {
+	border: 0;
+	
+	background-image: url("../images/form_input_text.png");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 22px;
+	width: 171px;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.login a {
+	font-size: 12px;
+}
+.login>div, .login>span {
+	margin-left: 15px;
+	color: #FFFFFF; /*clean up*/
+}
+.login input[type=submit] {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21px;
+
+	border: 0;
+
+	display: block;
+
+	background-image: url("../images/buttons/btn_sprite.png");
+	background-position: -117px -40px;
+	background-color: transparent;
+	height: 27px;
+	width: 94px;
+}
+.login input[type=submit]:hover {
+	cursor: pointer;
+	background-position: -117px -69px;
+}
+/*-------------------------------------------------------------------*/
+div.footrade_news {
+	margin-top: 40px;
+}
+
+div.footrade_news_text {	/* needs cleanup */
+	color: #FFFFFF;
+	height: 14px;
+	width: inherit;
+}
+div.footrade_news_content {
+	margin-top: 15px;
+	width: inherit;
+	height: 320px;
+	font-size: 12px;
+}
+.footrade_news_content ul {
+	list-style-type: none;
+	list-style-position: inside;
+	padding: 0px;
+}
+.footrade_news_content li {
+    border-bottom: 1px dotted #333333;
+    padding-bottom: 15px;
+    padding-top: 13px;
+}
+.footrade_news_content li:first-child {
+    border-top: 1px dotted #333333;
+}
+.footrade_news_content a {
+	color: #15918b;
+}
+/*-------------------------------------------------------------------*/
+div.sponsors {
+	width: inherit;
+	margin-top: 35px;
+	margin-bottom: 52px;
+}
+div.sponsor_banner {
+	width: inherit;
+	height: 80px;
+	margin-bottom: 15px;
+}
+div.sponsor_banner a img {	/* ie :( */
+	border: none;
+}
+div.sponsor_banner last-child {
+	margin-bottom:0px;
+}
+/*-------------------------------------------------------------------*/
+div.team_owner_login {
+	width: inherit;
+}
+div.team_owner_login a img {	/* ie :( */
+	border: none;
+}
+div.team_owner_login_text {
+	color: #FFFFFF;
+	height: 14px;
+	width: inherit;
+	margin-bottom: 10px;
+}
+/*-------------------------------------------------------------------*/
+div.user_status {
+	width: 200px;
+	height: 126px;
+	
+	background-image: url('../images/user_status_background.png');
+}
+div.user_logged_in {
+	margin-left: 43px;
+	margin-top: 49px;
+}
+div.btn_logout {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	
+	width: 116px;
+	height: 29px;
+	
+	background-image: url('../images/buttons/btn_sprite.png');
+	background-color: transparent;
+	background-position: 0px -40px;
+}
+div.btn_logout:hover {
+	background-position: 0 -69px;
+	cursor: pointer;
+}
+/*-------------------------------------------------------------------*/
+div.new_teams_right {
+	margin-top: 38px;
+}
+div.new_teams_right ul li a img{
+	border: none;
+}
+.new_teams_right ul {
+	list-style-type: none;
+	list-style-position:inside;
+	
+	padding: 0px;
+}
+.new_teams_right li {
+	color: #FFFFFF;
+	border-bottom: 1px dotted #333333;
+	
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.new_teams_right li:first-child {
+	margin-top: 8px;
+	border-top: 1px dotted #333333;
+}
+.new_teams_right li:last-child {
+	margin-bottom: 9px
+}
+.new_teams_right li>a>img {
+	vertical-align: middle;
+}
+.new_teams_right li>span {
+	margin-left: 10px;
+}
+.btn_view_all_teams_green {
+	width: 135px;
+	height: 20px;
+	
+	background-image: url('../images/buttons/btn_sprite.png');
+	background-position: -385px -0px;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn_view_all_teams_green:hover {
+	cursor: pointer;
+	background-position: -385px -20px;
+}

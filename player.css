@@ -1,0 +1,274 @@
+.player_profile_container {
+	float: left;
+	position: relative;
+	margin-top: -3px;
+}
+.player_profile {
+	width: 730px;
+	height: 747px;
+	margin-top: 13px;
+	background-image: url('../images/player/bg_player_paper_texture.png');
+	background-color: transparent;
+}
+.player_photo {
+	margin-top: 44px;
+	margin-left: 23px;
+	background-image: url('../images/player_photo_border.png');
+	width: 162px;
+	height: 180px;
+}
+.player_photo img {
+	margin-top: 5px;
+	margin-left: 6px;
+}
+.player_team_name {
+	position: absolute;
+	top: 92px;
+	left: 218px;
+}
+.player_offer {
+	position: absolute;
+	top: 92px;
+	left: 472px;
+}
+.player_info_1_list {
+	position: absolute;
+	top: 132px;
+	left: 218px;
+}
+.player_info_2_list {
+	position: absolute;
+	top: 132px;
+	left: 472px;
+}
+.player_info_1_list ul{
+	list-style-type: none;
+	list-style-position: inside;
+	padding-left: 0px;
+}
+.player_info_1_list li{
+	list-style-image: url("../images/icons/ico_donut.png");
+	background-color: transparent;
+}
+div.player_info_1a_list {
+	position: absolute;
+	top: 132px;
+	left: 302px;
+}
+	.player_info_1a_list ul{
+		list-style-type: none;
+		padding: 0px;
+	}
+	.player_info_1a_list li{
+		margin-top: 13px;
+		margin-bottom: 10px;
+	}
+.player_info_2_list  ul {
+	list-style-type: none;
+	padding-left: 25px;
+}
+.player_info_2_list li {
+	list-style-image: url("../images/icons/ico_donut.png");
+	background-color: transparent;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	padding-top: 2px;
+}
+div.player_info_2a_list {
+	position: absolute;
+	top: 132px;
+	left: 562px;
+	padding-left: 0px;
+}
+	.player_info_2a_list ul{
+		list-style-type: none;
+		padding: 0px;
+	}
+	.player_info_2a_list li{
+		margin-top: 13px;
+		margin-bottom: 10px;
+	}
+.player_info_wrapper_1 {
+	width: 320px;
+	position: absolute;
+	top: 270px;
+	left: 23px;
+	text-align: center; /*remove soon*/
+}
+.player_info_wrapper_1_header {
+	height: 22px;
+	background-image: url('../images/player/bg_player_info_header_1.png');
+	background-color: transparent;
+	margin-bottom: 13px;
+}
+.player_info_wrapper_2 {
+	width: 150px;
+	position: absolute;
+	top: 270px;
+	left: 373px;
+}
+.player_info_wrapper_2_header {
+	height: 22px;
+	background-image: url('../images/player/bg_player_info_header_2.png');
+	background-color: transparent;
+	margin-bottom: 13px;
+}
+.player_info_wrapper_3 {
+	width: 150px;
+	position: absolute;
+	top: 270px;
+	left: 550px;
+}
+.player_info_wrapper_3_header {
+	height: 22px;
+	background-image: url('../images/player/bg_player_info_header_3.png');
+	background-color: transparent;
+	margin-bottom: 13px;
+}
+.btn_view_more {
+	background-image: url('../images/buttons/btn_sprite.png');
+	background-position: -280px 0px;
+	width: 105px;
+	height: 20px;
+	margin-top: 17px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn_view_more:hover {
+	background-position: -280px -20px;
+	cursor: pointer;
+}
+.player_info_tabs_wrapper {
+	left: 30px;
+	top: 497px;
+	position: absolute;
+	
+	width: 670px;
+	height: 39px;
+}
+div.btn_player_info_tab_1 {
+	width: 223px;
+	height: 36px;
+	float: left;
+	
+	background-image: url('../images/buttons/btn_player_info.png');
+	background-position: 0px -36px;
+}
+div.btn_player_info_tab_1:hover{
+	background-position: 0px -36px;
+	cursor: pointer;
+}
+div.btn_player_info_tab_2 {
+	width: 222px;
+	height: 36px;
+	float: left;
+
+	background-image: url('../images/buttons/btn_player_info.png');
+	background-position: -223px 0px;
+}
+div.btn_player_info_tab_2:hover{
+	background-position: -223px -36px;
+	cursor: pointer;
+}
+div.btn_player_info_tab_3 {
+	width: 225px;
+	height: 36px;
+	float: left;
+	
+	background-image: url('../images/buttons/btn_player_info.png');
+	background-position: -445px 0px;
+}
+div.btn_player_info_tab_3:hover{
+	background-position: -445px -36px;
+	cursor: pointer;
+}
+div.bottom_btm_bar {
+	background-image: url("../images/footrade_02-sliced_61.png");
+	
+	width: 670px;
+	height: 3px;
+}
+div.player_info_tab_content {
+	margin-top: 28px;
+	margin-bottom: 16px;
+	
+	text-align: center; /* marked for removal */
+}
+div.player_info_tab_buttons_wrapper {
+	width: 430px;
+	height: 36px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.btn_player_info_1 {
+	float: left;
+	width: 200px;
+	height: 36px;
+	
+	background-image: url('../images/buttons/btn_sprite.png');
+	background-position: -761px -56px;
+}
+div.btn_player_info_1:hover {
+	background-position: -761px -128px;
+	cursor: pointer;
+}
+div.btn_player_info_2 {
+	float: right;
+	width: 200px;
+	height: 36px;
+	
+	background-image: url('../images/buttons/btn_sprite.png');
+	background-position: -761px -92px;
+}
+div.btn_player_info_2:hover {
+	background-position: -761px -164px;
+	cursor: pointer;
+}
+/* class for quickly minaturizing huge blocks of japanese text */
+div.li_small_text {
+	font-size: 13px;
+}
+div.l_border_style li {
+	border-bottom: 1px dotted #333333;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	width: 487px;
+}
+div.l_border_style li:first-child {
+	border-top: 1px dotted #333333;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	/*margin-top: 8px;*/
+}
+.unified_ol_design_player {
+	list-style-position: inside;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.unified_ol_design_player li:first-child {
+	border-top: 1px dotted #333333;
+	padding-top: 11px;
+}
+.unified_ol_design_player li {
+	width: 322px;
+	margin-bottom: 8px;
+	padding-top: 3px;
+	padding-bottom: 8px;
+	color: #168E88;
+	border-bottom: 1px dotted #333333;
+	font-size: 13px;
+}
+div.player_info_1_list_div {
+	position:absolute;
+	left: 100px;
+	display: inline;
+	width: 150px;
+}
+.ul_ico_2_margin li:first-child {
+	padding-top: 10px;
+}
+.ul_ico_2_margin li {
+	padding-bottom: 12px;
+	font-size: 13px;
+}
