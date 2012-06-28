@@ -287,18 +287,23 @@ div.teams_photo_row p {
 	font-size: 11px;
 }
 /*-------------------------------------------------------------------*/
+
+/*--------------- map and search form start -----------------------*/
+ .map_and_search_wrapper { font-family: arial,sans-serif; }
+.bold_text { font-weight:bold; }
 div.map_and_search_wrapper {
 	margin-top: 49px;
 	margin-bottom: 21px;
 	width: 730px;
 	color: #FFFFFF;	/* clean up soon*/
 }
-div.search_players {
+div.search_teams {
 	width: 372px;
 	height: 282px;
 	background-image: url("../images/bg_search_teams.png");
 	background-repeat: no-repeat;
 	float: left;
+	font-weight: normal;
 }
 div.search_player_text {
 	margin-top: 17px;
@@ -329,24 +334,33 @@ span.search_label2, span.search_label3, span.search_label4 {
    margin-right: 3px;
    text-align: right;
 }
-span.search_label2 { width: 53px; }
-span.search_label3 { width: 83px; }
+span.search_label2 { width: 41px; }
+span.search_label3 { width: 86px; }
 span.search_label4 { width: 80px; }
 
 div.search_form_row span.search_sublabel { 
 	color: #ffffff;
 }
-
+.sublabel_radio1 { 
+	width: 114px; 
+	display:inline-table; 
+}
+.sublabel_radio2 { 
+	width: 78px; 
+	display:inline-table; 
+}
 .sublabel_radio input { width:10px; }
+.search_form input, .search_form select {
+	color: #505050;
+	font-size: 11px;
+}
 input.tag_field { width:237px; }
 select.talent_select, select.age_select { width: 76px; }
 select.cat_select, select.city_select { width: 70px; }
 select.scale_select { width: 62px; }
 .label_cbox  input{ margin: 0 3px 0 0; }
 
-/*-------------- Search Teams End -----------------*/
-
-.search_players input[type=submit] {
+.search_teams input[type=submit] {
 	margin-left: auto;
 	margin-right: auto;	
 	border: 0;
@@ -357,7 +371,7 @@ select.scale_select { width: 62px; }
 	height: 27px;
 	width: 114px;
 }
-.search_players input[type=submit]:hover {
+.search_teams input[type=submit]:hover {
 	background-position: -212px -69px;
 	cursor: pointer;
 }
@@ -368,10 +382,12 @@ div.footrade_map {
 	background-image: url("../images/bg_footrade_map.png");
 	float: left;
 }
+/*--------------- map and search form end -----------------------*/
+
 .fixed_130_sides {
 	width: 130px;
 	height: 130px;
 	
 	background-color: #FFFFFF;
 }
-.test { color: yellow; display:block;}
+
