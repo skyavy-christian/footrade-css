@@ -161,7 +161,7 @@
 	font-size:17px;
 }
 
-/*
+
 input[type="submit"] {
     background-color: transparent;
     background-image: url("../images/buttons/btn_sprite.png");
@@ -173,7 +173,7 @@ input[type="submit"] {
     margin-right: auto;
     width: 114px;
 }
-*/
+
 .search_player_from{
 	font-size:13px;
 }

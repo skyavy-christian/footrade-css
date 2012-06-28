@@ -18,6 +18,7 @@
 .player_list_desc{
 	float:left;
 	width:590px;
+	margin-left:5px;
 }
 
 .player_list_desc{
@@ -148,8 +149,6 @@
     height: 282px;
     width: 357px;
 		font-family:Arial, Helvetica, sans-serif;
-		padding-left:15px;
-		padding-top:13px;
 }
 
 .search_player_text span{
@@ -161,7 +160,7 @@
 	font-size:17px;
 }
 
-/*
+
 input[type="submit"] {
     background-color: transparent;
     background-image: url("../images/buttons/btn_sprite.png");
@@ -173,7 +172,7 @@ input[type="submit"] {
     margin-right: auto;
     width: 114px;
 }
-*/
+
 .search_player_from{
 	font-size:13px;
 }
@@ -238,7 +237,147 @@ input[type="submit"] {
 	padding-right:20px;
 }
 
-.player_search_area input[type=submit]{
+.team_result_item{
+	height:130px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:25px;
+	padding-bottom:25px;
+	background:bottom url('../images/player_list/bg_player_list_dot.png') repeat-x;
+}
+
+.team_result_item .logo{
+	float:left;
+	width:130px;
+	height:130px;
+}
+
+.team_result_item.favorite .logo{
+	border:solid 5px #93C144;
+	width:120px;
+	height:120px;
+	overflow:hidden;
+}
+
+.team_result_item .stat{
+	float:left;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+
+.team_result_item .name{
+	margin-bottom:10px;
+}
+
+.team_result_item .name a{
+	color:#189791;
+	text-decoration:none;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.team_result_item .name a:hover{
+	color:#47BAB4;
+}
+
+.stat_line{
+	font-size:12px;
+}
+
+.stat_line .label{
+	color:#ABCE43;
+	font-weight:bold;
+	float:left;
+	margin-right:10px;
+	font-size:13px
+}
+
+.stat_line .value{
+	float:left;
+}
+
+.stat_line .item{
+	float:left;
+	margin-right:20px;
+}
+
+img{
+	border:0;
+}
+
+/*--------------- map and search form start -----------------------*/
+ .map_and_search_wrapper { font-family: arial,sans-serif; }
+.bold_text { font-weight:bold; }
+div.map_and_search_wrapper {
+	margin-top: 49px;
+	margin-bottom: 21px;
+	width: 730px;
+	color: #FFFFFF;	/* clean up soon*/
+}
+div.search_teams {
+	width: 372px;
+	height: 282px;
+	background-image: url("../images/bg_search_teams.png");
+	background-repeat: no-repeat;
+	float: left;
+	font-weight: normal;
+}
+div.search_player_text {
+	margin-top: 17px;
+	margin-left: 14px;
+	height: 14px;
+}
+div.search_form {
+	margin: 20px 14px 20px
+}
+div.search_form div {
+	height: 15px;
+	margin-top: 15px;
+	color: #ABCE43;
+}
+
+div.search_form span.search_form_row {
+float:left;
+font-weight:bold;
+}
+
+div.search_form_row span.search_label {
+	color: #ABCE43;
+    display: inline-table;
+    width: 93px;
+}
+span.search_label2, span.search_label3, span.search_label4 { 
+   display: inline-table;
+   margin-right: 3px;
+   text-align: right;
+}
+span.search_label2 { width: 41px; }
+span.search_label3 { width: 86px; }
+span.search_label4 { width: 80px; }
+
+div.search_form_row span.search_sublabel { 
+	color: #ffffff;
+}
+.sublabel_radio1 { 
+	width: 114px; 
+	display:inline-table; 
+}
+.sublabel_radio2 { 
+	width: 78px; 
+	display:inline-table; 
+}
+.sublabel_radio input { width:10px; }
+.search_form input, .search_form select {
+	color: #505050;
+	font-size: 11px;
+}
+input.tag_field { width:237px; }
+select.talent_select, select.age_select { width: 76px; }
+select.cat_select, select.city_select { width: 70px; }
+select.scale_select { width: 62px; }
+.label_cbox  input{ margin: 0 3px 0 0; }
+
+.map_and_search_wrapper input[type=submit] {
 	margin-left: auto;
 	margin-right: auto;	
 	border: 0;
@@ -249,7 +388,36 @@ input[type="submit"] {
 	height: 27px;
 	width: 114px;
 }
-.player_search_area input[type=submit]:hover {
+.map_and_search_wrapper input[type=submit]:hover {
 	background-position: -212px -69px;
 	cursor: pointer;
 }
+div.footrade_map {
+	margin-left: 18px;
+	width: 340px;
+	height: 280px;
+	background-image: url("../images/bg_footrade_map.png");
+	float: left;
+}
+
+div.map_and_search_wrapper{
+	margin-top:0;	
+}
+
+div.map_and_search_wrapper{
+	margin-bottom:0;
+}
+
+.map_and_search_wrapper .tag_field{
+	width:210px;
+}
+
+.map_and_search_wrapper .search_form_row{
+	width:338px;
+}
+
+.map_and_search_wrapper .search_label4{
+	width:70px;
+}
+
+/*--------------- map and search form end -----------------------*/
