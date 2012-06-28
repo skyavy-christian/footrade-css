@@ -2,15 +2,11 @@ div.login_form_big {
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 105px;
-	
+	margin-bottom: 105px;	
 	width: 510px;
-	height: 356px;
-	
-	background-image: url("../images/login/bg_large_login.png");
-	
-	color: #FFFFFF;
-	
+	height: 426px;	
+	background-image: url("../images/login/bg_login_form.png");	
+	color: #FFFFFF;	
 	/*padding-left: 48px;
 	padding-top: 43px;*/
 }
@@ -18,35 +14,37 @@ div.login_form_wrapper {
 	margin-left: 48px;
 	padding-top: 34px;
 }
-.login_submit {
-	background-image: url("../images/buttons/btn_sprite.png");
-	background-position: -221px -114px;
-	background-color: transparent;
+
+.login_submit, .facebook_login_submit, .twitter_login_submit {
+	background-image: url("../images/login/btn_login_sprite.png");
 	border: 0 none;
 	display: block;
 	width: 221px;
 	height: 43px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.login_submit {
+	background-position: 0px 0px;
+	background-color: transparent;
 	margin-top: 14px;
 }
 .login_submit:hover {
-	background-position: -221px -157px;
+	background-position: 0px -43px;
 	cursor: pointer;
 }
 .facebook_login_submit {
-	  background-image: url("../images/buttons/btn_sprite.png");
-    background-position: 0px -114px;
-		background-color: transparent;
-    border: 0 none;
-    display: block;
-		width: 221px;
-    height: 43px;
-    margin-left: auto;
-    margin-right: auto;
+    background-position: 0px -87px;
 }
 .facebook_login_submit:hover {
-	background-position: 0px -157px;
+	background-position: 0px -130px;
+	cursor: pointer;
+}
+.twitter_login_submit {
+    background-position: 0px -172px;
+}
+.twitter_login_submit:hover {
+	background-position: 0px -215px;
 	cursor: pointer;
 }
 
@@ -57,8 +55,7 @@ div.login_form_big input[type=text], div.login_form_big input[type=password] {
 	background-color: transparent;
 	background-repeat: no-repeat;
 	height: 36px;
-	width: 411px;
-	
+	width: 411px;	
 	padding-left: 20px;
 }
 div.login_form_big input[type=text] {

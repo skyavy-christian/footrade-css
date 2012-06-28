@@ -294,9 +294,10 @@ div.map_and_search_wrapper {
 	color: #FFFFFF;	/* clean up soon*/
 }
 div.search_players {
-	width: 190px;
-	height: 260px;
-	background-image: url("../images/search_player_background.png");
+	width: 372px;
+	height: 282px;
+	background-image: url("../images/bg_search_teams.png");
+	background-repeat: no-repeat;
 	float: left;
 }
 div.search_player_text {
@@ -305,35 +306,51 @@ div.search_player_text {
 	height: 14px;
 }
 div.search_form {
-	margin-left: 14px;
+	margin: 20px 14px 20px
 }
 div.search_form div {
 	height: 15px;
 	margin-top: 15px;
-	width: 148px;
 	color: #ABCE43;
 }
-div.search_form div:first-child {
-	margin-top: 18px;
+
+div.search_form span.search_form_row {
+float:left;
+font-weight:bold;
 }
-div.search_form div:last-child {
-	margin-bottom: 18px;
+
+div.search_form_row span.search_label {
+	color: #ABCE43;
+    display: inline-table;
+    width: 93px;
 }
-.search_form  span:first-child{
-	color: #FFFFFF;
+span.search_label2, span.search_label3, span.search_label4 { 
+   display: inline-table;
+   margin-right: 3px;
+   text-align: right;
 }
-.search_form span {
-	float: right;
+span.search_label2 { width: 53px; }
+span.search_label3 { width: 83px; }
+span.search_label4 { width: 80px; }
+
+div.search_form_row span.search_sublabel { 
+	color: #ffffff;
 }
+
+.sublabel_radio input { width:10px; }
+input.tag_field { width:237px; }
+select.talent_select, select.age_select { width: 76px; }
+select.cat_select, select.city_select { width: 70px; }
+select.scale_select { width: 62px; }
+.label_cbox  input{ margin: 0 3px 0 0; }
+
+/*-------------- Search Teams End -----------------*/
 
 .search_players input[type=submit] {
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 	border: 0;
-
 	display: block;
-	
 	background-image: url("../images/buttons/btn_sprite.png");
 	background-position: -212px -40px;
 	background-color:transparent;
@@ -345,10 +362,10 @@ div.search_form div:last-child {
 	cursor: pointer;
 }
 div.footrade_map {
-	margin-left: 20px;
-	width: 520px;
-	height: 263px;
-	background-image: url("../images/top/bg_footrade_map.png");
+	margin-left: 18px;
+	width: 340px;
+	height: 280px;
+	background-image: url("../images/bg_footrade_map.png");
 	float: left;
 }
 .fixed_130_sides {
