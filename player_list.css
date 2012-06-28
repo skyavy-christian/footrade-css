@@ -77,10 +77,15 @@
 	text-decoration:none;
 }
 
-.player_list_item h1 a:hover{
-	color:#189791;
-	text-decoration:underline;
+.player_list_item h1 a:hover, .player_list_nav a:hover{
+ color:#22B3B0
 }
+
+.stat_list .value a{
+	color:#FFF;
+	text-decoration:none;	
+}
+
 
 .player_list_stat .label{
 	float:left;
