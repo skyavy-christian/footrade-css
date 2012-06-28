@@ -1,0 +1,138 @@
+.player_list_container{
+	float:left;
+	color:#fff;
+	width:726px;
+}
+
+.player_list_pic{
+	float:left;
+	margin-right:5px;
+}
+
+.player_list_item{
+	float:left;
+	height:130px;
+	width:726px;
+}
+
+.player_list_desc{
+	float:left;
+	width:590px;
+}
+
+.player_list_desc{
+	background:#000;
+	font-size:12px;
+	line-height:20px;
+}
+
+.player_list_desc1{
+	background:no-repeat top url('../images/player_list/bg_player_list_desc_01.png') #1E1E1E;
+	height:5px;
+	width:590px;
+	float:left;
+}
+
+.player_list_desc2{
+	background:no-repeat top url('../images/player_list/bg_player_list_desc_02.png') #000;
+	height:44px;
+	width:10px;
+	float:left;
+}
+
+.player_list_desc3{
+	width:570px;
+	min-height:44px;
+	float:left;
+	padding-top:3px;
+	padding-left:10px;
+	background:#1E1E1E;
+}
+
+.player_list_desc4{
+	background:no-repeat top url('../images/player_list/bg_player_list_desc_04.png') #1E1E1E;
+	height:5px;
+	width:590px;
+	float:left;
+}
+
+.player_list_stat{
+	float:left;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.stat_list .col{
+	float:left;
+	width:193px;
+}
+
+.player_list_item h1{
+	color:#189791;
+	font-size:16px;
+}
+
+.player_list_item h1 a, .player_list_nav a{
+	color:#189791;
+	text-decoration:none;
+}
+
+.player_list_item h1 a:hover{
+	color:#189791;
+	text-decoration:underline;
+}
+
+.player_list_stat .label{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#ABCE43;
+}
+
+.player_list_stat .value{
+	float:left;
+	padding-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#fff;
+}
+
+.player_list_item{
+	margin-top:25px;
+	padding-bottom:25px;
+	background:bottom url('../images/player_list/bg_player_list_dot.png') repeat-x;
+}
+
+.player_list_item.end{
+	margin-top:25px;
+	padding-bottom:25px;
+	background:none;
+}
+
+.player_list_nav{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#4C4C4C;
+	width:730px;
+	float:right;
+	text-align:center;
+	margin-top:18px;
+}
+
+.player_list_nav div{
+	float:left;
+	margin-right:25px;
+}
+
+.player_list_nav ul{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.player_list_nav ul li{
+	display:inline-block;
+	list-style:none;
+	margin-right:15px;
+}
