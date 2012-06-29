@@ -251,13 +251,6 @@ input[type="submit"] {
 	height:130px;
 }
 
-.team_result_item.favorite .logo{
-	border:solid 5px #93C144;
-	width:120px;
-	height:120px;
-	overflow:hidden;
-}
-
 .team_result_item .stat{
 	float:left;
 	margin-left:15px;
@@ -419,5 +412,28 @@ div.map_and_search_wrapper{
 .map_and_search_wrapper .search_label4{
 	width:70px;
 }
+
+/* inner border */
+.team_result_item .borders, .team_result_item .borders2{
+	display:none;
+}
+
+.team_result_item.favorite .logo{
+	padding:0; position: relative; 
+	display: inline-block; overflow: hidden;
+}
+.team_result_item.favorite .logo img{
+	display:block;
+}
+.team_result_item.favorite .borders, .team_result_item.favorite .borders2{
+		position: absolute; width:100%; height:100%;
+		border: 5px solid #93C144;
+		display:block;
+}
+.team_result_item.favorite .borders2{
+	bottom: 5px; right: 5px;
+	display:block;
+}
+/* end inner border */
 
 /*--------------- map and search form end -----------------------*/
