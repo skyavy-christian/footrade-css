@@ -6,7 +6,7 @@
 }
 .team_profile {
 	width: 730px;
-	height: 1128px;
+	height: 1938px;
 	margin-top: 12px;
 	background-image: url('../images/team/bg_team_paper_texture.png');
 	background-color: transparent;
@@ -143,9 +143,100 @@ div.team_info_2a_list {
 	background-position: -280px -20px;
 	cursor: pointer;
 }
+/* Team Info Photo Gallery Start */
+.team_info_photo_gallery {
+	width: 670px;
+	position: absolute;
+	
+	left: 30px;
+	top: 513px;
+}
+.team_info_photo_current {
+	width: 670px;
+	height: 340px;
+}
+.team_info_photo_gallery ul {
+	padding: 0px;
+	list-style-type: none;
+	list-style-position: inside;
+	
+	position: absolute;
+	bottom: 6px;
+	right: 285px;
+}
+.team_info_photo_gallery ul li {
+	display: inline-block;
+	width: 19px;
+	height: 16px;
+}
+.team_info_photo_gallery_button {
+	display: block;
+	width: 22px;
+	height: 16px;
+
+	background-image: url('../images/team/team_profile_sprite.png');
+	background-position: -22px -58px;
+}
+.team_info_photo_gallery_button_active {
+	background-position: 0px -58px;
+}
+.team_info_photo_selection {
+	width: 670px;
+	height: 158px;
+	
+	position: absolute;
+	/*top: 863px;*/
+	top: 350px;
+	
+	background-color: #000000;
+	
+	border: 1px solid #8C8C8C;
+	border-radius: 3px 3px;
+}
+.team_info_photo_selection_back_next {
+	display: block;
+	
+	position: absolute;
+	top: 66px;
+	
+	width: 26px;
+	height: 30px;
+	
+	background-image: url('../images/team/team_profile_sprite.png');
+	background-position: -294px 0px;
+}
+.team_info_photo_selection_back {
+	left: 6px;
+}
+.team_info_photo_selection_next {
+	right: 6px;
+}
+.team_info_photo_selection ul {
+	padding: 0px;
+	
+	list-style-type: none;
+	list-style-position: inline;
+	
+	position: absolute;
+	left: 41px;
+	top: 19px;
+	
+	right: 0px;
+}
+.team_info_photo_selection ul li {
+	display: inline-block;
+	
+	width: 180px;
+	height: 120px;
+	
+	margin-right: 20px;
+	
+	background-color: #303030;
+}
+/* Team Info Photo Gallery End */
 .team_info_tabs_wrapper {
 	left: 30px;
-	top: 497px;
+	top: 1074px;
 	position: absolute;
 	
 	width: 670px;
@@ -209,6 +300,7 @@ div.team_info_tab_buttons_wrapper {
 	height: 36px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 30px;
 }
 div.btn_team_info_1 {
 	float: left;
@@ -234,6 +326,42 @@ div.btn_team_info_2:hover {
 	background-position: -561px -164px;
 	cursor: pointer;
 }
+/* Team Info Player Gallery Start */
+.team_info_player_gallery {
+	position: relative;
+	
+	top: -13px;
+	
+	height: 183px;
+	
+	border-bottom: 1px dashed #E0E1E4;
+}
+.team_info_player_gallery ul {
+	list-style-type: none;
+	list-style-position: inside;
+	
+	padding: 0;
+	margin: 0;
+	
+	display: inline-block;
+}
+.team_info_player_gallery ul li{
+	width: 164px;
+	height: 44px;
+	
+	padding-bottom: 6px;
+	
+	font-size: 13px;
+	color: #8C8C8C;
+	
+	display: block;
+}
+.team_info_player_gallery ul li img {
+	vertical-align: middle;
+	margin-right: 9px;
+}
+/* Team Info Player Gallery End */
+
 /* class for quickly minaturizing huge blocks of japanese text */
 div.li_small_text {
 	font-size: 13px;
