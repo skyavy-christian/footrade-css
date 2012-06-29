@@ -5,9 +5,9 @@
 }
 .player_profile {
 	width: 730px;
-	height: 747px;
+	height: 946px;
 	margin-top: 13px;
-	background-image: url('../images/player/bg_player_paper_texture.png');
+	background-image: url('../images/player/bg_player_content_wrapper.png');
 	background-color: transparent;
 }
 .player_photo {
@@ -142,8 +142,7 @@ div.player_info_2a_list {
 .player_info_tabs_wrapper {
 	left: 30px;
 	top: 497px;
-	position: absolute;
-	
+	position: absolute;	
 	width: 670px;
 	height: 39px;
 }
@@ -271,4 +270,43 @@ div.player_info_1_list_div {
 .ul_ico_2_margin li {
 	padding-bottom: 12px;
 	font-size: 13px;
+}
+
+
+.comment_box {
+	left:30px; 
+	top:749px; 
+	position:absolute;
+	width:670px; 
+	color:#787878;
+	font-size:12px;
+}
+.comment_head {
+	margin-bottom:10px; 
+	font-size:14px;
+}
+.comment_head a, .comment_foot a{
+	color: #168E88;
+	text-decoration: none;
+}
+.comment_inner {
+	border:1px dotted #787878; 
+	background:#f9fbfe;
+}
+.comment_info {
+	padding-left:10px;
+	border-bottom:1px dashed #787878;	
+}
+.comment_info span {
+	margin-right: 3px;
+}
+.comment_info span a{
+	color:#008bdd;
+}
+.comment_content {
+	padding:10px;
+}
+.comment_foot {
+	text-align:right; 
+	margin-top:10px;
 }
