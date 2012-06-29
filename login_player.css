@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import "header.css";
+@import "common.css";
+@import "footer.css";
+
+.content_wrapper { 
+	font-family: arial,sans-serif; 
+}
+.login_form_wrapper h1 {
+ font-weight: normal;
+}
+div.login_form_big {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 105px;	
+	width: 510px;
+	height: 426px;	
+	background-image: url("../images/login/bg_login_form.png");
+	color: #FFFFFF;	
+	/*padding-left: 48px;
+	padding-top: 43px;*/
+}
+div.login_form_wrapper {
+	margin-left: 48px;
+	padding-top: 34px;
+}
+.bold_text {  font-weight:bold; }
+
+span.forgot_link {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 222px;
+	margin-top: 9px;
+}
+.forgot_link a { font-size:12px; }
+.login_submit, .facebook_login_submit, .twitter_login_submit {
+	background-image: url("../images/login/btn_login_sprite.png");
+	border: 0 none;
+	display: block;
+	width: 222px;
+	height: 43px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+}
+.login_submit {	
+	background-position: 0px 0px;
+	background-color: transparent;	
+	margin-top: 14px;
+}
+.login_submit:hover {
+	background-position: 0px -43px;
+	cursor: pointer;
+}
+.facebook_login_submit {
+    background-position: 0px -85px;
+}
+.facebook_login_submit:hover {
+	background-position: 0px -128px;
+	cursor: pointer;
+
+}
+.twitter_login_submit {
+    background-position: 0px -172px;
+}
+.twitter_login_submit:hover {
+	background-position: 0px -215px;
+	cursor: pointer;
+}
+div.login_form_big input[type=text], div.login_form_big input[type=password] {
+	border: 0;
+	
+	background-image: url("../images/login/bg_input_text.png");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	height: 36px;
+	width: 411px;
+	
+	padding-left: 20px;
+}
+div.login_form_big input[type=text] {
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+div.login_form_big input[type=password] {
+	margin-bottom: 10px;
+}
+div.login_form_big input[type=submit] {
+	margin-bottom: 9px;
+}
+div.login_form_wrapper p:first-of-type {
+	font-size: 12px;
+	margin-top: -5px;
+}
