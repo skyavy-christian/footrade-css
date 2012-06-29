@@ -1,0 +1,260 @@
+.player_list_container{
+	float:left;
+	color:#fff;
+	width:726px;
+}
+
+.player_list_pic{
+	float:left;
+	margin-right:5px;
+}
+
+.player_list_item{
+	float:left;
+	height:130px;
+	width:726px;
+}
+
+.player_list_desc{
+	float:left;
+	width:590px;
+}
+
+.player_list_desc{
+	background:#000;
+	font-size:12px;
+	line-height:20px;
+}
+
+.player_list_desc1{
+	background:no-repeat top url('../images/player_list/bg_player_list_desc_01.png') #1E1E1E;
+	height:5px;
+	width:590px;
+	float:left;
+}
+
+.player_list_desc2{
+	background:no-repeat top url('../images/player_list/bg_player_list_desc_02.png') #000;
+	height:44px;
+	width:10px;
+	float:left;
+}
+
+.player_list_desc3{
+	width:570px;
+	min-height:44px;
+	float:left;
+	padding-top:3px;
+	padding-left:10px;
+	background:#1E1E1E;
+}
+
+.player_list_desc4{
+	background:no-repeat top url('../images/player_list/bg_player_list_desc_04.png') #1E1E1E;
+	height:5px;
+	width:590px;
+	float:left;
+}
+
+.player_list_stat{
+	float:left;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.stat_list .col{
+	float:left;
+	width:193px;
+}
+
+.player_list_item h1{
+	color:#189791;
+	font-size:16px;
+}
+
+.player_list_item h1 a, .player_list_nav a{
+	color:#189791;
+	text-decoration:none;
+}
+
+.player_list_item h1 a:hover, .player_list_nav a:hover{
+ color:#22B3B0
+}
+
+.stat_list .value a{
+	color:#FFF;
+	text-decoration:none;	
+}
+
+
+.player_list_stat .label{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#ABCE43;
+}
+
+.player_list_stat .value{
+	float:left;
+	padding-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#fff;
+}
+
+.player_list_item{
+	margin-top:25px;
+	padding-bottom:25px;
+	background:bottom url('../images/player_list/bg_player_list_dot.png') repeat-x;
+}
+
+.player_list_item.end{
+	margin-top:25px;
+	padding-bottom:25px;
+	background:none;
+}
+
+.player_list_nav{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#4C4C4C;
+	width:730px;
+	float:right;
+	text-align:center;
+	margin-top:18px;
+}
+
+.player_list_nav div{
+	float:left;
+	margin-right:25px;
+}
+
+.player_list_nav ul{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.player_list_nav ul li{
+	display:inline-block;
+	list-style:none;
+	margin-right:15px;
+}
+
+.player_search_map{
+	float:right;
+}
+
+.search_players {
+    background-image: url("../images/bg_search_teams.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 282px;
+    width: 357px;
+		font-family:Arial, Helvetica, sans-serif;
+		padding-left:15px;
+		padding-top:13px;
+}
+
+.search_player_text span{
+	font-weight:bold;
+}
+
+.search_player_text{
+	margin-bottom:20px;
+	font-size:17px;
+}
+
+/*
+input[type="submit"] {
+    background-color: transparent;
+    background-image: url("../images/buttons/btn_sprite.png");
+    background-position: -212px -40px;
+    border: 0 none;
+    display: block;
+    height: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 114px;
+}
+*/
+.search_player_from{
+	font-size:13px;
+}
+
+.search_player_from .input{
+	font-size:12px;
+}
+
+.search_player_from .row{
+	margin-bottom:10px;
+}
+
+.search_players .city_div, .search_players .age{
+	width:155px;
+	float:left;
+}
+
+.search_players .city_div .label, .search_players .age .label{
+	padding-right:35px;
+}
+
+.search_players .label{
+	color:#ABCE43;
+	font-weight:bold;
+}
+
+.search_players .sex{
+	float:left;
+	margin-right:10px;
+}
+
+.search_players .sex label{
+	margin-left:10px;
+}
+
+.search_players .lisense{
+	margin-right:10px;
+	float:left;
+}
+
+.search_players .lisense span{
+	padding-right:5px;
+}
+
+.search_players .keyword input{
+	width:130px;
+}
+
+.search_players .team span{
+	padding-right:35px;
+}
+
+.search_players .position{
+	font-weight:bold;
+}
+
+.search_players select{
+	width:80px;
+}
+
+.search_players .skill span{
+	padding-right:20px;
+}
+
+.player_search_area input[type=submit]{
+	margin-left: auto;
+	margin-right: auto;	
+	border: 0;
+	display: block;
+	background-image: url("../images/buttons/btn_sprite.png");
+	background-position: -212px -40px;
+	background-color:transparent;
+	height: 27px;
+	width: 114px;
+}
+.player_search_area input[type=submit]:hover {
+	background-position: -212px -69px;
+	cursor: pointer;
+}
