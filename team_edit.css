@@ -1,0 +1,39 @@
+.hide{
+	display:none;
+}
+
+.edit_label_hover{
+	border:1px solid #ccc;
+}
+
+.player_photo{
+	position:relative;
+}
+
+.edit_photo_label{
+	width:16px;
+	height:16px;
+	background:url('../images/player/pencil.png');
+	cursor:pointer;
+	position:absolute;
+	top:10px;
+	right: 10px;
+}
+
+#player_height .edit_input, #history .edit_input, #member .edit_input{
+	width:30px;
+}
+
+#director .edit_input, #year .edit_input{
+	width:100px;
+}
+
+#ui-datepicker-div{
+	font-size:11px;
+}
+
+#member{
+	width:90px;
+	position:absolute;
+	top: 50px;
+}
