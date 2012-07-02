@@ -1,0 +1,31 @@
+.player_info_2_list{
+	top:150px;
+}
+
+.player_info_2_list li{
+	padding-top:0;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-left: 8px;
+}
+
+.player_info_1_list li{
+	list-style-image:none;
+}
+
+.player_info_1_list ul{
+	list-style-position:outside;
+}
+
+.player_info_1_list li .list_div{
+	background:url('../images/icons/ico_donut.png') no-repeat left;
+	padding-left:23px;
+	height:16px;
+}
+
+.player_info_wrapper_2 li{
+}
+
+.unified_ul_design_ico_2 li{
+	margin-left:15px;
+}

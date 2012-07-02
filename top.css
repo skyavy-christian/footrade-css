@@ -188,7 +188,7 @@ div.selections {
 	width: 350px;
 	height: 240px;
 	float: left;
-	position: absolute;
+	/*position: absolute;*/
 }
 div.selections_header {
 	margin-top: 12px;

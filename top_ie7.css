@@ -1,0 +1,24 @@
+/* ie7 fix css file
+	dev: rich
+*/
+.new_players_btns{
+	padding-top:10px;
+	width:730px;
+}
+
+.players_photo_row{
+	width:750px;
+}
+
+.teams_photo_row img{
+	border:0;
+}
+
+div.login_form input[type="text"], div.login_form input[type="password"]{
+	margin-top:10px;
+	margin-bottom:8px;
+}
+
+.login input[type="submit"]{
+	margin-top:5px;
+}
