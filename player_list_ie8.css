@@ -1,0 +1,12 @@
+div.login_form input[type="text"], div.login_form input[type="password"]{
+	margin-top:10px;
+	margin-bottom:8px;
+}
+
+.login input[type="submit"]{
+	margin-top:5px;
+}
+
+.search_players .keyword input{
+	width:115px;
+}

@@ -1,0 +1,31 @@
+/* ie8 fix css file
+	dev: rich
+*/
+.new_players_btns{
+	width:730px;
+}
+
+.players_photo_row{
+	width:750px;
+}
+
+div.login_form input[type="text"], div.login_form input[type="password"]{
+	margin-top:10px;
+	margin-bottom:8px;
+}
+
+.login input[type="submit"]{
+	margin-top:5px;
+}
+
+span.search_label2{
+	margin:0;
+}
+
+.sublabel_radio2{
+	width:82px;
+}
+
+img{
+	border:0;
+}

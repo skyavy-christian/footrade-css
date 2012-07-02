@@ -1,0 +1,33 @@
+
+.player_list_nav ul{
+	width:250px;
+}
+
+.player_list_nav li{
+	float:left;
+}
+
+.search_player_text{
+	margin-bottom:10px;
+}
+
+.search_form .age{
+	width:150px;
+}
+
+.search_form  .row{
+	margin-bottom:7px;
+}
+
+.search_form .keyword input{
+	width:115px;
+}
+
+div.login_form input[type="text"], div.login_form input[type="password"]{
+	margin-top:10px;
+	margin-bottom:8px;
+}
+
+.login input[type="submit"]{
+	margin-top:5px;
+}

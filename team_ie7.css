@@ -1,0 +1,45 @@
+.team_info_1_list li{
+	list-style-image:none;
+}
+
+.team_info_1_list ul{
+	list-style-position:outside;
+}
+
+.team_info_1_list li .list_div{
+	background:url('../images/icons/ico_donut.png') no-repeat left;
+	padding-left:23px;
+	height:16px;
+}
+
+.team_info_2_list{
+	/*top:125px;*/
+}
+
+.team_info_2_list ul{
+	padding-left:0;
+}
+
+.team_info_2_list li{
+	list-style-image:none;
+	background:url('../images/icons/ico_donut.png') no-repeat left top;
+	padding-left:25px;
+	height:16px;
+}
+
+.unified_ul_design_ico_2 li{
+	margin-left:15px;
+}
+
+.team_info_photo_gallery li{
+	float:left;
+}
+
+.team_info_player_gallery ul{
+	float:left;
+	width:166px;
+}
+
+.team_info_player_gallery li{
+	
+}
